@@ -1,0 +1,17 @@
+{
+  "name": "exampleRequireJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bibidon/exampleRequireJS",
+  "authors": [
+    "bibidon <debibidon@gmail.com>"
+  ],
+  "description": "requirejs.org",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
