@@ -1,8 +1,10 @@
 ﻿define(function () {
 
-    var routes = [{ hash: "#list", controller: "ListController" },
-        { hash: "#add", controller: "AddController" }];
-    var defaultRouter = "#list";
+    var routes = [
+        { hash: "#begin", controller: "BeginController" },
+        { hash: "#Yes", controller: "YesController" },
+        { hash: "#No", controller: "NoController" }];
+    var defaultRouter = "#begin";
     var currentHash = "";
 
     function startRouting() {
