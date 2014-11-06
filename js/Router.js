@@ -8,8 +8,9 @@
     var currentHash = "";
 
     function startRouting() {
-        window.location.hash = window.location.hash || defaultRouter;
+        window.location.hash = defaultRouter;
         setInterval(hashCheck, 100);
+        hashCheck();
     }
 
     function hashCheck() {

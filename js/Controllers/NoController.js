@@ -1,9 +1,11 @@
-﻿define(["Views/ListView"], function (ListView) {
+﻿define(["Views/NoView"], function (NoView) {
 
     function start() {
-        var users = JSON.parse(localStorage.users);
-        ListView.render({ users: users });
+        NoView.render();
+        NoView.bindEvents();
     }
 
-    return { start: start };
+    return {
+        start: start
+    };
 });

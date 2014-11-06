@@ -19,6 +19,14 @@
     float: left;
 }
 
-.hidden {
-    visibility: hidden;
+.good, .bad {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.goodBtn, .badBtn {
+    margin: auto;
+    margin-top: 10px;
+    width: 50px;
 }
